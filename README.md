@@ -122,5 +122,6 @@ Run feature tests with PHPUnit:
 ```bash
 php artisan test
 ```
+![Testing Result: ](image.png)
 
  

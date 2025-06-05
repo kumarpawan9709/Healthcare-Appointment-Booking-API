@@ -3,9 +3,6 @@
     "info": {
         "title": "Healthcare Appointment Booking API",
         "description": "API documentation for the healthcare appointment booking system",
-        "contact": {
-            "email": "support@example.com"
-        },
         "version": "1.0.0"
     },
     "paths": {

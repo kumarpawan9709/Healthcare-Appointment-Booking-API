@@ -11,9 +11,6 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
  *     title="Healthcare Appointment Booking API",
  *     version="1.0.0",
  *     description="API documentation for the healthcare appointment booking system",
- *     @OA\Contact(
- *         email="support@example.com"
- *     )
  * )
  */
 

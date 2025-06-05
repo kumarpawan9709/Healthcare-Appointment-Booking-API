@@ -36,6 +36,7 @@ git checkout master
 composer install
 ```
 ### Note: If Stuck at “Generating optimized autoload files” (it may take sfew minutes)
+
 ```bash
 composer install --no-scripts --no-autoloader
 composer dump-autoload -o
@@ -66,7 +67,11 @@ DB_PASSWORD=your_database_password
 php artisan key:generate
 php artisan migrate
 ```
+### Note- If want to seed testing data run below command to generate some testing data
 
+```bash
+php artisan db:seed
+```
 ### 5. Install and Configure Sanctum
 
 ```bash

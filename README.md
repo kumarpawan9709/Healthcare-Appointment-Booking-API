@@ -26,6 +26,8 @@ and Swagger API documentation.
 ```bash
 git clone https://github.com/kumarpawan9709/Healthcare-Appointment-Booking-API.git
 cd Healthcare-Appointment-Booking-API
+git checkout master
+
 ```
 
 ### 2. Install Dependencies

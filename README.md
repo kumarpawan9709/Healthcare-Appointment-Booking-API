@@ -94,7 +94,7 @@ Access the Swagger UI to explore the API endpoints:
 ```
 http://localhost:8000/api/documentation
 ```
-
+![Documentation Image:](image-1.png)
 ### How to use Authentication via Swagger UI
 
 1. Go to the **Authentication** section in the Swagger UI.  

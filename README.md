@@ -35,6 +35,11 @@ git checkout master
 ```bash
 composer install
 ```
+### Note: If Stuck at “Generating optimized autoload files” (it may take sfew minutes)
+```bash
+composer install --no-scripts --no-autoloader
+composer dump-autoload -o
+```
 
 ### 3. Setup Environment
 

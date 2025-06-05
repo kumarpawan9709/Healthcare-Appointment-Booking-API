@@ -67,32 +67,19 @@ DB_PASSWORD=your_database_password
 php artisan key:generate
 php artisan migrate
 ```
-### Note- If want to seed testing data run below command to generate some testing data
+### 5. If want to seed testing data run below command to generate some testing data
 
 ```bash
 php artisan db:seed
 ```
-### 5. Install and Configure Sanctum
-
-```bash
-php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
-php artisan migrate
-```
-
-### 6. Install Swagger (L5-Swagger)
-
-```bash
-composer require "darkaonline/l5-swagger"
-php artisan vendor:publish --provider="L5Swagger\L5SwaggerServiceProvider"
-```
-
-### 7. Generate Swagger Documentation
+ 
+### 6. Generate Swagger Documentation
 
 ```bash
 php artisan l5-swagger:generate
 ```
 
-### 8. Start the Development Server
+### 7. Start the Development Server
 
 ```bash
 php artisan serve

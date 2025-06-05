@@ -24,7 +24,7 @@ and Swagger API documentation.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/healthcare-api.git
+git clone https://github.com/kumarpawan9709/Healthcare-Appointment-Booking-API.git
 cd healthcare-api
 ```
 
